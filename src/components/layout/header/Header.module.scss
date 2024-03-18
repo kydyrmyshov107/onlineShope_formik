@@ -1,0 +1,30 @@
+.Header {
+  padding-block: 20px;
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo {
+      width: 250px;
+      height: 55.56px;
+    }
+    .section {
+      display: flex;
+      align-items: center;
+      gap: 25px;
+      .aside {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 7px;
+        p {
+          color: rgb(0, 0, 0);
+          font-size: 12px;
+          font-weight: 500;
+          line-height: 16px;
+          letter-spacing: 0.3px;
+        }
+      }
+    }
+  }
+}
